@@ -249,7 +249,7 @@ animation: fadeIn .2s linear backwards .6s;
     padding: 1rem 0;
     line-height: 2;
     color:#666;
-    font-size: 2.4rem;
+    font-size: 8rem;
 }
 
 .about .content .icons-container{
@@ -574,6 +574,72 @@ color: black;
     color: #fff;
 }
 
+.blogs .box-container .box .content .date span{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.blogs .box-container .box .content .user{
+    display:block;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #666;
+}
+
+.blogs .box-container .box .content .user i{
+    padding-right: .5rem;
+    color: #F08080;
+}
+
+.blogs .box-container .box .content .user:hover{
+    color:#F08080;
+}
+
+.blogs .box-container .box .content .title{
+font-size: 2rem;
+color:#222;
+}
+
+.blogs .box-container .box .content .title:hover{
+    color:#F08080;
+    }
+
+.blogs.box-container .box .content p{
+    padding: 1rem 0;
+    line-height: 2;
+    color:#666;
+    font-size: 1.4rem;
+}
+
+.services{
+    grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+    gap: 2rem;
+    background: #F08080;
+    display:grid;
+}
+
+.services .box{
+    text-align: center;
+    padding: 2rem;
+   
+}
+
+.services .box img{
+    height: 10rem;
+    
+}
+
+.services .box h3{
+    padding: 1rem 0;
+    font-size: 2rem;
+    color: #666;
+}
+
+.services .box p{
+line-height: 2;
+font-size: 1.4rem;
+color:#fff;
+}
 
 
 
